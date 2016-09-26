@@ -10,15 +10,25 @@
 </head>
 <body>
 	<header id="main_navigation" class="clearfix">
-			<a href="#" class="name">Andy Mount</a>
-			<nav>
-				<%= link_to "Articles", posts_path %>
-				<a href="#">Projects</a>
-				<a href="#">Contact</a>
-			</nav>
-		</header>
+		<%= link_to "Andy Mount", root_path, class: "name" %>
+		<nav>
+			<%= link_to "Articles", posts_path %>
+			<a href="#">Projects</a>
+			<a href="#">Contact</a>
+		</nav>
+	</header>
 
 <%= yield %>
+
+<footer id='main_footer'>
+	<p class="copyright">&copy;2016 Andy Mount</p>
+
+	<nav>
+		<a href="https://vk.com/iamsomebody" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+		<a href="https://github.com/andmount" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+		<a href="mailto:andmount@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	</nav>
+</footer>
 
 </body>
 </html>
