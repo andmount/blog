@@ -1,4 +1,4 @@
-##Blog and portfolio with some fetures:
+## Blog and portfolio with some fetures:
 
 1. Markdown for create and edit text in posts & projects
 2. Syntax highlightning of programming languages
@@ -8,4 +8,5 @@
 6. Human readable links
 
 [Link to this blog on Heroku](https://secure-plateau-16632.herokuapp.com/)
+
 [My telegram](https://telegram.me/andmount)
