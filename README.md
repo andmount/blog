@@ -1,4 +1,4 @@
-## Blog and portfolio with some fetures:
+## Blog and portfolio with some features:
 
 1. Markdown for create and edit text in posts & projects
 2. Syntax highlightning of programming languages
